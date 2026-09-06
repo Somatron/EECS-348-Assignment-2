@@ -47,7 +47,7 @@ int get_category_score(const char *cat) {
     if (strcmp(cat, "OtherPerson") == 0) return 1;
     return 0;
 }
-
+ 
 // Helper to convert MM-DD-YYYY string to YYYYMMDD integer for chronological comparison
 long get_date_score(const char *date_str) {
     int month, day, year;
